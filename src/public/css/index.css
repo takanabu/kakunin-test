@@ -1,0 +1,191 @@
+.contact-form__heading {
+    font-family: 'Inika';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    background: white;
+    color: #8B7969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.form__group {
+    font-family: Inika;
+    color: #8B7969;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    width: center;
+    display: flex;
+    gap: 200px;
+    text-align: left;
+    margin: 50px ;
+    margin-left: 80px;
+}
+
+.form__label--required {
+    color: #FF9494;
+}
+
+.form__input--name input,
+.form__input--emal input,
+.form__input--tel input,
+.form__input--address input,
+.form__input--building input,
+.form__input--detailselect select,
+.form__input--detail textarea{
+    width: 100%;
+    border: none;
+    background: #F4F4F4;
+    outline: none;
+    height: 40px;
+    color: #d3d3d3;
+    font-size: 16px;
+}
+
+.form__input--name input::placeholder,
+.form__input--emal input::placeholder,
+.form__input--tel input::placeholder,
+.form__input--address input::placeholder,
+.form__input--building input::placeholder,
+.form__input--detailselect select::placeholder,
+.form__input--detail textarea::placeholder {
+    color: #BEB1A6;
+    font-family: Inika;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.form__input--gender input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #8B7969;
+    border-radius: 50%;
+    outline: none;
+    transition: 0.5s;
+}
+.form__input--gender input[type="radio"]:checked {
+    background: #8B7969;
+}
+
+.form__input--name{
+    display: flex;
+    justify-content: center;
+    margin-left: 78px;
+}
+
+.form__input--name input:first-child {
+    margin-right: 50px;
+}
+
+.form__input--name input {
+    width: 250px;
+}
+
+.form__input--gender {
+    margin-left: 60px;
+}
+
+.form__input--gender input:not(:last-child) {
+    margin-left: 70px;
+}
+
+.form__input--emal input {
+    width: 550px;
+    margin-left: 0px;
+}
+
+.form__input--tel {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 57px;
+}
+
+.form__input--tel input {
+    width: 150px;
+}
+
+.form__input--tel .input-field:not(:last-child) {
+    margin-right: 20px;
+}
+
+.separator {
+    padding: 10px;
+    color: #8B7969;
+    font-family: Inika;
+
+}
+
+.form__input--address input {
+    width: 550px;
+    margin-left: 98px;
+}
+
+.form__input--building input {
+    width: 550px;
+    margin-left: 100px;
+
+}
+
+.form__input--detailselect {
+    margin-left: -50px;
+}
+
+.form__input--detailselect .input-field {
+    width: 300px;
+    color: #BEB1A6;
+    font-family: Inika;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.form__input--detail .input-field {
+    width: 500px;
+        /* 入力欄の幅 */
+        height: 100px;
+        /* 入力欄の高さ */
+        resize: none;
+        /* ドラッグによるリサイズを無効にする */
+        padding: 10px;
+            /* 全方向の余白 */
+}
+
+.form__input--detail {
+    margin-left: -30px;
+}
+
+.form__input--submit button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8B8378;
+    /* ボタンの背景色 */
+    text-align: center;
+    margin-left: 600px;
+}
+
+.form__submit {
+    color: white;
+    /* ボタンのテキスト色 */
+}
+
+
+
+
+
+
+
