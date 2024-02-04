@@ -26,6 +26,7 @@ URL
 
 ER図
 
+![er](https://github.com/takanabu/kakunin-test/assets/146699650/b0b6448b-4414-48dc-8384-bbee1651a3c7)
 
 
   
